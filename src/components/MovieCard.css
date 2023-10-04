@@ -3,3 +3,14 @@
     text-align: center;
     transition: 0.5s;
 }
+
+.movie__container:hover {
+    transform: translateY(-30px);
+    opacity: 0.5;
+    transition: 0.5
+}
+
+.movie__img {
+    border-radius: 10px;
+    width: 100%;
+}

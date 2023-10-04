@@ -1,10 +1,9 @@
 
 
 import './App.css'
+import MyRoutes from './Routes/MyRoutes';
 import {  ContextMovieProvider } from './components/ContextMovie'
-import NavBar from './components/NavBar';
 
-import LandingPages from './pages/LandingPages';
 
 const App = () => {
 
@@ -13,9 +12,8 @@ const App = () => {
   return (
     <ContextMovieProvider>
       <div>
-        <NavBar />
-        
-          <LandingPages />
+        <MyRoutes />
+       
         
       </div>
     </ContextMovieProvider>
